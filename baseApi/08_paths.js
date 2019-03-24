@@ -12,3 +12,4 @@ console.log('./', path.resolve('./'));
 // ./
 // 在require方法中总是相对当前文件所在文件夹
 // 在其他地方和process.cwd()一样，相对node启动文件夹
+
