@@ -23,5 +23,12 @@ console.log(buf3);
 // 填充10 从第三个开始填到第7个之前止
 console.log(buf3.fill(10, 2, 6));
 
+const buf4 = Buffer.from('test');
+const buf5 = Buffer.from('test');
+const buf6 = Buffer.from('test!');
 
+console.log(buf4.equals(buf5));
+console.log(buf4.equals(buf6));
 
+console.log(buf4.indexOf('t'));
+console.log(buf4.indexOf('1'));
