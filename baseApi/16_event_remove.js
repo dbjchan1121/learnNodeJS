@@ -1,15 +1,15 @@
 const EventEmitter = require('events');
 
-class CustomEvent extends EventEmitter {}
+class CustomEvent extends EventEmitter { }
 
-function fn1 () {
+function fn1() {
   console.log('fn1');
-  
+
 }
 
-function fn2 () {
+function fn2() {
   console.log('fn2');
-  
+
 }
 
 const ce = new CustomEvent();
@@ -26,7 +26,7 @@ setTimeout(() => {
   // ce.removeAllListeners('test');
 }, 1500);
 
-function pong (a) {
+function pong(a) {
   console.log('pong');
   console.log(a);
 }
